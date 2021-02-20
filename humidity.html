@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Temperature page</title>
+    <title>Humidity page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -13,7 +13,7 @@
   </head>
   <body>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="Landing.html">Latitude</a>
+          <a class="navbar-brand" href="index.html">Latitude</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,7 +28,7 @@
                   <a class="dropdown-item" href="temperature.html">Temperature</a>
                   <a class="dropdown-item" href="humidity.html">Humidity</a>            
                   <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                  <a class="dropdown-item" href="windspeed.html">Windspeed</a>
+                  <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
                   </div>
               </li>
               <li class="nav-item">
@@ -42,31 +42,31 @@
       </nav>
       <div class="row content">
           <div class="col-sm-12 col-md-8 col-lg-8">
-              <h2 class="text-left">Temperature</h2>
+              <h2 class="text-left">Humidity</h2>
               <hr class="my-4">
-              <img src="Resources/images/temperature.png" alt="Latitude vs Temperature" class="img-fluid">
-              <p>Maximum temperatures were higher near the equator, and decreased at points further north or south</p>
+              <img src="Resources/images/humidity.png" alt="Latitude vs Humidity" class="img-fluid">
+              <p>There was no apparent correlation between distance from the equator and average humidity.</p>
           </div>
-           <div class="col-sm-12 col-md-4 col-lg-4" >
-              <h2 class="text-left">Visualizations</h2>
-              <p>Click on an image below to go to that page</p>
-              <hr class="my-4">
-              <h5>Temperature</h5>
-              <a href="temperature.html">
-                  <img src="Resources/images/temperature.png" class="rounded float-left thumbnail" alt="Latitude vs Temperature">
-              </a>
-              <h5>Humidity</h5>
-              <a href="humidity.html">
-                  <img src="Resources/images/humidity.png" class="rounded float right thumbnail" alt="Latitude vs Humidity">
-              </a>
-              <h5>Cloudiness</h5>
-              <a href="cloudiness.html">
-                  <img src="Resources/images/cloudiness.png" class="rounded float-left  thumbnail" alt="Latitude vs Cloudiness">
-              </a>
-              <h5>Windspeed</h5>
-              <a href="windspeed.html">
-                  <img src="Resources/images/wind.png" class="rounded float right  thumbnail" alt="Latitude vs Wind Speed">
-              </a>
-          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4" >
+            <h2 class="text-left">Visualizations</h2>
+            <p>Click on an image below to go to that page</p>
+            <hr class="my-4">
+            <h5>Temperature</h5>
+            <a href="temperature.html">
+                <img src="Resources/images/temperature.png" class="rounded float-left thumbnail" alt="Latitude vs Temperature">
+            </a>
+            <h5>Humidity</h5>
+            <a href="humidity.html">
+                <img src="Resources/images/humidity.png" class="rounded float right thumbnail" alt="Latitude vs Humidity">
+            </a>
+            <h5>Cloudiness</h5>
+            <a href="cloudiness.html">
+                <img src="Resources/images/cloudiness.png" class="rounded float-left  thumbnail" alt="Latitude vs Cloudiness">
+            </a>
+            <h5>Windspeed</h5>
+            <a href="windspeed.html">
+                <img src="Resources/images/wind.png" class="rounded float right  thumbnail" alt="Latitude vs Wind Speed">
+            </a>
+        </div>
       </div>
   </body>
