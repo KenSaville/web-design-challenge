@@ -1,6 +1,5 @@
 # web-design-challenge
-# Web Design Homework - Web Visualization Dashboard (Latitude)
-
+# Web Visualization Dashboard 
 
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
